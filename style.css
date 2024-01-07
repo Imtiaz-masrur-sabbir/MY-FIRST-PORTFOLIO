@@ -34,6 +34,13 @@ body {
 
 }
 
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 2px solid black ;
+}
+
 /*  nav related style */
 nav {
     display: flex;
@@ -56,6 +63,7 @@ nav>ul {
 nav li {
     list-style: none;
     margin-right: 50px;
+    font-size: 30px;
 }
 
 nav a {
@@ -66,9 +74,9 @@ nav a {
 /* header related styles */
 .header {
     background-color: #fff8f3;
-    background-image: url('header_bg.png');
+    background-image: url('header_bg.png'), url('developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,  left;
 }
 
 .banner {
